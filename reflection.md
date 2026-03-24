@@ -12,7 +12,7 @@ then on the left it would show the option to change difficultly, the range and t
 looked normal, without playing the game.
 
 - List at least two concrete bugs you noticed at the start  
-  (for example: "the secret number kept changing" or "the hints were backwards").
+  (for example: "the hints were backwards").
 
 <!-- 
 1. Typed numbers don't work
@@ -49,9 +49,7 @@ AI did not help with the testing part.
 
 ## 4. What did you learn about Streamlit and state?
 
-- In your own words, explain why the secret number kept changing in the original app.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-- What change did you make that finally gave the game a stable secret number?
 
 so to my understanding the secret number kept changing because the variable being called wasn't the right one, every time the wrong variable was called it constantly was changing the number it wasn't the saved secret number from the beginning.
 
